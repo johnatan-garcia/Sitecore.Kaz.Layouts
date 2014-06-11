@@ -3,7 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{043F0D1C-5219-48D7-9DD9-B59D57CC8D60}"
 	ProjectSection(SolutionItems) = preProject
-		Data\packages\DMS Gutters-1.0.zip = Data\packages\DMS Gutters-1.0.zip
 		README.md = README.md
 	EndProjectSection
 EndProject
