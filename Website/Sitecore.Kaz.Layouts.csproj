@@ -56,17 +56,14 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Shell\Applications\Layouts\DeviceEditor\ExtendedDeviceEditorForm.cs" />
-    <Compile Include="Shell\Framework\Commands\System\ReplicateDevice.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App_Config\Include\Sitecore.Kaz.Layouts.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Shell\Applications\Layouts\DeviceEditor\DeviceEditor.xml" />
+    <Content Include="Overrides\sitecore\shell\Applications\Layouts\DeviceEditor\DeviceEditor.xml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Pipelines\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
